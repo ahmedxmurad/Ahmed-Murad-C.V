@@ -6,33 +6,81 @@
     <title>Ahmed Murad - CV</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
-            margin: 20px;
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
             padding: 0;
-        }
-        h1, h2 {
             color: #333;
         }
+
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            background-color: white;
+            margin: 40px auto;
+            padding: 20px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
         }
-        .section {
+
+        h1 {
+            font-size: 36px;
+            color: #333;
+            border-bottom: 2px solid #333;
+            padding-bottom: 10px;
             margin-bottom: 20px;
         }
-        .skills, .contact, .courses {
-            list-style: none;
+
+        h2 {
+            font-size: 28px;
+            color: #555;
+            margin-bottom: 20px;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        h3 {
+            font-size: 22px;
+            color: #333;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ddd;
+            padding-bottom: 5px;
+        }
+
+        .profile, .education, .experience, .skills, .courses, .contact {
+            margin-bottom: 20px;
+        }
+
+        .profile p, .education p, .experience p, .skills ul, .courses ul, .contact ul {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        ul {
+            list-style-type: none;
             padding: 0;
         }
-        .skills li, .contact li, .courses li {
-            margin: 5px 0;
+
+        li {
+            margin-bottom: 10px;
         }
-        .skills {
+
+        .skills ul {
             display: flex;
             flex-wrap: wrap;
         }
+
         .skills li {
-            margin-right: 15px;
+            background-color: #e7e7e7;
+            padding: 10px;
+            border-radius: 5px;
+            margin-right: 10px;
+            margin-bottom: 10px;
+            font-size: 14px;
+        }
+
+        .contact ul li {
+            font-size: 16px;
         }
     </style>
 </head>
@@ -40,15 +88,22 @@
     <div class="container">
         <h1>Ahmed Murad</h1>
         <h2>Accountant</h2>
-        
-        <section class="section">
+
+        <section class="profile section">
             <h3>Profile</h3>
             <p>Recent accounting graduate with a Bachelor's degree in Accounting, looking to join a professional team where I can apply my theoretical knowledge and gain practical skills. Despite my lack of extensive experience, my passion for accounting and my willingness to learn make me prepared to contribute effectively to achieving the team's financial and administrative goals.</p>
         </section>
-        
-        <section class="section">
+
+        <section class="experience section">
+            <h3>Experience</h3>
+            <p><strong>Sales (2015-2021)</strong> at Revan Store, El Soudy Store, Healthy And Tasty, Diva Store</p>
+            <p><strong>Management (2021-2023)</strong> at El Soudy Store, Diva Store</p>
+            <p><strong>Accounting (2021-2023)</strong> at El Soudy Store, Diva Store</p>
+        </section>
+
+        <section class="skills section">
             <h3>Skills</h3>
-            <ul class="skills">
+            <ul>
                 <li>Time management skills</li>
                 <li>Excel</li>
                 <li>PowerPoint</li>
@@ -61,21 +116,14 @@
             </ul>
         </section>
 
-        <section class="section">
-            <h3>Experience</h3>
-            <p><strong>Sales (2015-2021)</strong> at Revan Store, El Soudy Store, Healthy And Tasty, Diva Store</p>
-            <p><strong>Management (2021-2023)</strong> at El Soudy Store, Diva Store</p>
-            <p><strong>Accounting (2021-2023)</strong> at El Soudy Store, Diva Store</p>
-        </section>
-
-        <section class="section">
+        <section class="education section">
             <h3>Education</h3>
             <p>Bachelor's Degree in Accounting (2018-2021) - Faculty of Commerce, Mansoura University</p>
         </section>
 
-        <section class="section">
+        <section class="courses section">
             <h3>Courses</h3>
-            <ul class="courses">
+            <ul>
                 <li>ICDL</li>
                 <li>Selling skills</li>
                 <li>Photoshop</li>
@@ -83,9 +131,9 @@
             </ul>
         </section>
 
-        <section class="section">
+        <section class="contact section">
             <h3>Contact</h3>
-            <ul class="contact">
+            <ul>
                 <li>Phone: 01033490089</li>
                 <li>Location: Mansoura, Dakahlia</li>
                 <li>Email: Mosbah856@gmail.com</li>
